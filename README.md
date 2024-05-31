@@ -27,7 +27,7 @@
    进入到项目目录，在项目文件夹下创建一个构建目录。
 
    ```
-   cd /path/Flexible Modular Transfer with Resource Scheduling
+   cd /path/Flexible-Modular-Transfer-with-Resource-Scheduling
    mkdir build
    cd build
    ```
