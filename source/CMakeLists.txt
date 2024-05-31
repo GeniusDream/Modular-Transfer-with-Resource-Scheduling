@@ -14,9 +14,9 @@ find_package(ZLIB)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
 # main.cpp
-add_executable(test_queue "main_queue.cpp" ${EXAMPLE_HEADER_FILES} ${EXAMPLE_INLINE_FILES} ThreadPool.h thpool.h thpool.cpp gzcompress.h gzcompress.cpp thread_safe_queue.h httplib.h cpuTest.h)
+add_executable(test_queue "main(queue).cpp" ${EXAMPLE_HEADER_FILES} ${EXAMPLE_INLINE_FILES} ThreadPool.h thpool.h thpool.cpp gzcompress.h gzcompress.cpp thread_safe_queue.h httplib.h cpuTest.h)
 target_link_libraries(test_queue ${LINKLIBS} ${PROJECT_LINK_LIBS} ${ZLIB_LIBRARIES})
 
-add_executable(test_single "main_single.cpp" ${EXAMPLE_HEADER_FILES} ${EXAMPLE_INLINE_FILES} ThreadPool.h thpool.h thpool.cpp gzcompress.h gzcompress.cpp thread_safe_queue.h httplib.h cpuTest.h)
+add_executable(test_single "main(single).cpp" ${EXAMPLE_HEADER_FILES} ${EXAMPLE_INLINE_FILES} ThreadPool.h thpool.h thpool.cpp gzcompress.h gzcompress.cpp thread_safe_queue.h httplib.h cpuTest.h)
 target_link_libraries(test_single ${LINKLIBS} ${PROJECT_LINK_LIBS} ${ZLIB_LIBRARIES})
 
