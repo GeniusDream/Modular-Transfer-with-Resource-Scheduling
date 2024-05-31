@@ -105,7 +105,7 @@
 1. 打开 /shell/testcpu.sh 文件，
    将 "/home/c508/cpu.log" 改为自定义的本机 cpu.log 输出的绝对路径。
 2. 打开 /source/cpuTest.h 文件，
-   将 "/home/c508/testcpu.sh" 改为本机 testcpu.sh 的绝对路径 "/path/Flexible Modular Transfer with Resource Scheduling/shell/testcpu.sh"
+   将 "/home/c508/testcpu.sh" 改为本机 testcpu.sh 的绝对路径 "/path/Flexible-Modular-Transfer-with-Resource-Scheduling/shell/testcpu.sh"
    将 "/home/c508/cpu.log" 改为自定义的本机 cpu.log 输出的绝对路径。
 
 ### main(single) 文件配置
@@ -128,7 +128,7 @@
 
 ## 五、项目目录
 
-Flexible Modular Transfer with Resource Scheduling  
+Flexible-Modular-Transfer-with-Resource-Scheduling  
 ├── README.md  
 ├── shell  
 │   └── testcpu.sh  
